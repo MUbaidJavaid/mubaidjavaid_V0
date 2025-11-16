@@ -61,12 +61,12 @@ export async function POST(
       )
     }
 
-    // TODO: Integrate with email service (Nodemailer, SendGrid, etc)
-    // const emailResult = await sendEmail({
-    //   to: process.env.CONTACT_EMAIL,
-    //   subject: `New contact form submission from ${body.name}`,
-    //   html: `<p>From: ${body.email}</p><p>Subject: ${body.subject}</p><p>Message: ${body.message}</p>`
-    // })
+    // Integrate with email service (Nodemailer, SendGrid, etc)
+    const emailResult = await sendEmail({
+      to: process.env.CONTACT_EMAIL,
+      subject: `New contact form submission from ${body.name}`,
+      html: `<p>From: ${body.email}</p><p>Subject: ${body.subject}</p><p>Message: ${body.message}</p>`
+    })
 
     // TODO: Save to database if configured
     // const message = await db.contactMessages.create({

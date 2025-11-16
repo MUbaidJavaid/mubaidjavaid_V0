@@ -491,7 +491,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
           <motion.div
-            className="text-xl sm:text-2xl font-bold text-white dark:text-indigo-300 font-mono"
+            className="text-xl sm:text-2xl font-bold text-white dark:text-indigo-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent font-mono"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -509,18 +509,18 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                 }}
                 className={`relative px-3 lg:px-4 py-2 text-sm font-medium rounded-lg transition-all group ${
                   activeSection === item.label 
-                    ? "text-indigo-600 dark:text-indigo-400  dark:bg-indigo-950/50" 
-                    : "text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-white/5 hover:backdrop-blur-sm hover:border-2 hover:border-indigo-300 dark:hover:bg-indigo-200"
+                    ? "text-indigo-600 dark:text-indigo-400  dark:bg-indigo-900/40" 
+                    : "text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-white/5 hover:backdrop-blur-sm hover:border-2 hover:border-indigo-300 dark:hover:border-cyan-300 dark:hover:bg-indigo-950/30"
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span className="capitalize text-white dark:text-indigo-300">{item.label}</span>
+                <span className="capitalize text-white dark:text-indigo-300 dark:group-hover:text-cyan-300">{item.label}</span>
                 {activeSection === item.label && (
                   <motion.div
-                    className="absolute bottom-0 left-2 right-2 h-0.5 dark:bg-indigo-300 rounded-full"
+                    className="absolute bottom-0 left-2 right-2 h-0.5 dark:bg-indigo-300 dark:group-hover:bg-cyan-300 rounded-full"
                     layoutId="activeIndicator"
-                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                    transition={{ type: "spring", stiffness: 380, damping: 15 }}
                   />
                 )}
                 
@@ -539,19 +539,19 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
           <div className="flex items-center gap-2">
             <motion.button
               onClick={() => setIsTerminalOpen(!isTerminalOpen)}
-              className="px-3 py-2 rounded-lg bg-indigo-100 text-indigo-700 border border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
+              className="group px-3 py-2 rounded-lg bg-indigo-100 text-indigo-700 border border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               aria-label="Open portfolio terminal"
             >
-              <Command size={18} />
-              <span className="hidden sm:inline text-sm font-semibold">Terminal</span>
+              <Command size={18} className="dark:group-hover:text-cyan-300" />
+              <span className="hidden sm:inline text-sm font-semibold dark:group-hover:text-cyan-300">Terminal</span>
             </motion.button>
 
             {mounted && (
               <motion.button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-200 shadow-sm hover:shadow-md"
+                className="group px-3 py-2 rounded-lg bg-indigo-100 text-indigo-700 border border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 aria-label="Toggle theme"
@@ -565,7 +565,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                       exit={{ rotate: 90, opacity: 0 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <Sun size={18} className="text-amber-500" />
+                      <Sun size={18} className="dark:group-hover:text-cyan-300" />
                     </motion.div>
                   ) : (
                     <motion.div
@@ -575,7 +575,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                       exit={{ rotate: -90, opacity: 0 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <Moon size={18} className="text-slate-700" />
+                      <Moon size={18} className="text-indigo-700" />
                     </motion.div>
                   )}
                 </AnimatePresence>

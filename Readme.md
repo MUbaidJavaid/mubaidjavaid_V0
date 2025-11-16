@@ -91,11 +91,13 @@
 
 ## 🌐 Connect With Me
 
+## 🌐 Connect With Me
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/ubaidjavaid" target="_blank">
+  <a href="https://www.linkedin.com/in/mubaidjavaid0" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"/>
   </a>
-  <a href="https://www.instagram.com/mubaidjavaid?igsh=MXNhZ3hzMHNxa3ZmZw==" target="_blank">
+  <a href="https://www.instagram.com/mubaidjavaid/" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge"/>
   </a>
   <a href="mailto:ubaidjaved500@gmail.com" target="_blank">
@@ -103,6 +105,18 @@
   </a>
   <a href="https://github.com/MUbaidJavaid" target="_blank">
     <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge"/>
+  </a>
+  <a href="https://www.tiktok.com/@mubaidjavaid0" target="_blank">
+    <img src="https://img.shields.io/badge/-TikTok-000000?logo=tiktok&logoColor=white&style=for-the-badge"/>
+  </a>
+  <a href="https://www.facebook.com/mubaidjavaid0" target="_blank">
+    <img src="https://img.shields.io/badge/-Facebook-1877F2?logo=facebook&logoColor=white&style=for-the-badge"/>
+  </a>
+  <a href="https://snapchat.com/add/mubaidjavaid" target="_blank">
+    <img src="https://img.shields.io/badge/-Snapchat-FFFC00?logo=snapchat&logoColor=black&style=for-the-badge"/>
+  </a>
+  <a href="https://vercel.com/mubaidjavaid" target="_blank">
+    <img src="https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge"/>
   </a>
 </p>
 

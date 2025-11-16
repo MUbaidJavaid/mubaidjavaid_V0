@@ -56,9 +56,9 @@ export default function AboutSection() {
         className="mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-foreground">
-          <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">My Journey</span>
+          <span className="text-white dark:text-indigo-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">My Journey</span>
         </h2>
-        <p className="text-lg text-white/70 max-w-3xl">
+        <p className="text-lg text-white/70 dark:text-indigo-300 max-w-3xl">
           Building expertise through diverse experiences, mentorship, and continuous learning.
         </p>
       </motion.div>
@@ -70,30 +70,61 @@ export default function AboutSection() {
             return (
               <motion.div key={exp.year} variants={item} className="mb-12 relative pl-12 group">
                 {/* Connecting line */}
-                <div className="absolute left-4 top-8 w-0.5 h-20 bg-gradient-to-b from-indigo-600 via-purple-600 to-transparent" />
-
-                {/* Timeline dot with icon */}
-                <motion.div
-                  className="absolute -left-2 top-0 w-10 h-10 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 border-2 border-white flex items-center justify-center soft-glow"
+                <div className="absolute left-4 top-8 w-0.5 h-20 bg-gradient-to-b from-indigo-600 via-purple-600 to-transparent dark:bg-gradient-to-b dark:from-blue-500 dark:via-cyan-500 dark:to-transparent" />
+<motion.span
+  className="absolute -left-2 top-0 w-10 h-10 rounded-full soft-glow"
+  animate={{
+    scale: [1, 1.25, 1],
+    opacity: [0.6, 0.2, 0.6],
+    filter: ["blur(4px)", "blur(10px)", "blur(4px)"],
+  }}
+  transition={{
+    duration: 2.2,
+    repeat: Infinity,
+    ease: "easeInOut",
+  }}
+  style={{
+    background:
+      "var(--icon-pulse-color)",
+  }}
+/>
+         
+                {/* <motion.div
+                  className="absolute -left-2 top-0 w-10 h-10 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 border-2 border-white flex items-center justify-center soft-glow dark:bg-gradient-to-r dark:from-blue-500 dark:to-cyan-500 dark:border-none dark:border-cyan-300"
                   whileHover={{ scale: 1.12, boxShadow: "0 8px 30px rgba(99,102,241,0.18)" }}
                 >
                   <Icon className="text-white" size={18} />
-                </motion.div>
+                </motion.div> */}
+
+                <motion.div
+  className="absolute -left-2 top-0 w-10 h-10 rounded-full 
+             bg-gradient-to-r from-indigo-600 to-purple-600
+             dark:from-blue-500 dark:to-cyan-500
+             border-2 border-white dark:border-cyan-300
+             flex items-center justify-center z-10"
+  whileHover={{
+    scale: 1.12,
+    boxShadow: "0 8px 26px rgba(99,102,241,0.28)",
+  }}
+>
+  <Icon className="text-white" size={18} />
+</motion.div>
+
 
                 {/* Content card */}
                 <motion.div
-                  className="group hover:border-indigo-600 p-6 rounded-lg border border-slate-200 bg-white/5 backdrop-blur-sm transition-colors soft-glow"
+                  className="group hover:border-indigo-600 p-6 rounded-lg border border-slate-200 bg-white/5 backdrop-blur-sm transition-colors soft-glow dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 "
                   whileHover={{ x: 6 }}
                 >
-                  <span className="text-sm group-hover:text-indigo-600  text-white font-bold font-mono">{exp.year}</span>
+                  <span className="text-sm group-hover:text-indigo-600  text-white font-bold dark:group-hover:text-cyan-200 font-mono">{exp.year}</span>
                   <h3 className="text-lg font-bold md:font-semibold mt-3 mb-1 text-white group-hover:bg-gradient-to-r 
                   group-hover:from-indigo-600 
                   group-hover:via-purple-600
                   group-hover: to-pink-600
                   group-hover:bg-clip-text 
                   group-hover:text-transparent 
-                group-hover:dark:text-indigo-400">{exp.title}</h3>
-                  <p className="text-white/80 group-hover:text-purple-600 font-medium mb-2">{exp.company}</p>
+                 dark:group-hover:text-cyan-300">{exp.title}</h3>
+                  <p className="text-white/80 group-hover:text-purple-600 dark:group-hover:text-cyan-300 font-mono mb-2">{exp.company}</p>
                   <p className="text-white/65">{exp.description}</p>
                 </motion.div>
               </motion.div>
