@@ -3,7 +3,7 @@
 
 # 👋 Hi, I’m <span style="font-family:'Poppins', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto; color:#06B6D4; font-weight:800">M Ubaid Javaid</span>
 
-<p align="center" style="font-family:'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial; color:#374151; margin-top:6px; font-size:18px;">
+<p align="center" style="font-family:'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial; color:#374151; margin-top:6px; font-size:30px;">
   💻 <strong>MERN Stack</strong> &nbsp;|&nbsp; <strong>Full‑Stack Web Developer</strong> &nbsp;•&nbsp; Passionate About Creative UI & Modern Web Apps
 </p>
 
