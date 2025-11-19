@@ -1,182 +1,199 @@
-
-
-
-# 👋 Hi, I’m <span style="font-family:'Poppins', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto; color:#06B6D4; font-weight:800">M Ubaid Javaid</span>
-
-<p align="center" style="font-family:'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial; color:#374151; margin-top:6px; font-size:30px;">
-  💻 <strong>MERN Stack</strong> &nbsp;|&nbsp; <strong>Full‑Stack Web Developer</strong> &nbsp;•&nbsp; Passionate About Creative UI & Modern Web Apps
-</p>
-
-<p align="center">
-  <img alt="typing" src="https://readme-typing-svg.demolab.com?font=Poppins&size=30&pause=1000&color=7C3AED&center=true&vCenter=true&width=820&lines=MERN+Stack+Developer;Full-Stack+Engineer;Building+Creative+Web+Apps+%F0%9F%92%BB" />
-</p>
-
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MERN-Stack-brightgreen?style=for-the-badge&logo=mern&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-</p>
-
----
-
-## 📝 About <span style="color:#06B6D4">Me</span>
-I’m a <span style="color:#06B6D4; font-weight:600">Full-Stack Web Developer</span> specializing in <span style="color:#06B6D4; font-weight:600">MERN Stack</span> applications with strong frontend and backend skills.  
-Currently pursuing <span style="color:#06B6D4; font-weight:600">BSc Computer Science</span>  at <span style="color:#06B6D4; font-weight:600">University of Education Lahore, Multan Campus (2022-2026)</span>.  
-I love building <span style="color:#06B6D4; font-weight:600">interactive, creative, and professional web applications</span> that are fully responsive and visually appealing.
-
-- 💼 **Experience:** MERN Stack Developer at <span style="color:#06B6D4; font-weight:600">Fiesta Content Solutions</span> (2024–Present)  
-- 🎯 **Interests:** UI/UX Design, Web Animations, Creative Projects, API Integration  
-
----
-
-## 🚀 Skills & <span style="color:#06B6D4; font-weight:600">Tech Stack</span>
-
-| Frontend | Backend | Database | Tools & Libraries |
-|----------|---------|---------|-----------------|
-| HTML5 🔶 | Node.js 🟢 | MongoDB 🍃 | Git & GitHub 🔗 |
-| CSS3 🎨 | Express.js ⚡ | SQL 🗄️ | VS Code 🖊️ |
-| JavaScript 💎 | REST APIs 🌐 | Firebase 🔥 | Vercel 🌐 |
-| TypeScript 💙 | Authentication 🔐 | Postman 📝 | Tailwind CSS 🌊 |
-| React ⚛️ | JWT & OAuth 🛡️ | | Material-UI (MUI) 🎛️ |
-| Next.js 🖤 | Server-Side Rendering ⚡ | | ShadCN/UI 💡 |
-| EJS 📄 | | | |
-
-### Front<span style="color:#06B6D4; font-weight:600">-end</span>
-
-<p>
-<img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5" />
-<img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3" />
-<img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss" />
-<img alt="JS" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img alt="TS" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript" />
-<img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-</p>
-
-### Backend & <span style="color:#06B6D4; font-weight:600">APIs</span>
-
-<p>
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-<img alt="Express" src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-<img alt="API" src="https://img.shields.io/badge/API-REST%20%7C%20GraphQL-2b2b2b?style=flat-square" />
-</p>
-
-### Data<span style="color:#06B6D4; font-weight:600">bases</span>
-
-<p>
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-<img alt="Postgres" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-</p>
-
-### UI / <span style="color:#06B6D4; font-weight:600">Libraries</span> / Tools
-
-<p>
-<img alt="MUI" src="https://img.shields.io/badge/MUI-0081CB?style=flat-square&logo=mui" />
-<img alt="ShadCN" src="https://img.shields.io/badge/ShadCN-7C3AED?style=flat-square" />
-<img alt="EJS" src="https://img.shields.io/badge/EJS-23B66F?style=flat-square" />
-<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img alt="VSCode" src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
-<img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-</p>
-
-
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MUbaidJavaid&style=flat-square&color=blue" alt="Profile views"/>
-</p>
-
----
-
-## 🏆 Projects
-
-### 1️⃣ [CreatKaro - Creative Agency Website](https://creatkaro.com)
-**Technologies:** React, TypeScript, Three.js, MUI, Tailwind CSS, Framer Motion  
-**Description:** A modern, interactive agency website with **smooth animations, responsive UI, dark/light mode toggle**, and creative project showcase.  
-**Repo:** [GitHub](https://github.com/MUbaidJavaid/CreatKaro) | **Live:** [creatkaro.com](https://creatkaro.com)
-
-### 2️⃣ [Tech Review Blog](https://mubaidjavaid.github.io/My-Bloging-Website-HTML/)
-**Technologies:** HTML, CSS, JavaScript  
-**Description:** Blog website with modern UI, responsive design, and fully interactive content sections.  
-**Repo:** [GitHub](https://github.com/MUbaidJavaid/My-Bloging-Website-HTML)
-
-### 3️⃣ [React Movies Project](https://react-movies-project-dusky.vercel.app/)
-**Technologies:** React, Tailwind CSS, APIs  
-**Description:** A fully responsive movie database app with **search, filtering, and real-time API data fetching**.  
-**Repo:** [GitHub](https://github.com/MUbaidJavaid/react_movies_project) | **Live:** [Vercel](https://react-movies-project-dusky.vercel.app/about)
-
-### 4️⃣ [Password Generator](https://mubaidjavaid.github.io/Password_Genrater/)
-**Technologies:** JavaScript, Tailwind CSS, HTML  
-**Description:** Generate **strong passwords** with **visual strength meter, FSM validation, and real-time feedback**.  
-**Repo:** [GitHub](https://github.com/MUbaidJavaid/Password_Genrater) | **Live:** [Demo](https://mubaidjavaid.github.io/Password_Genrater/)
-
-### 5️⃣ [Palindrome Checker](https://mubaidjavaid.github.io/Palindrome-Checker/)
-**Technologies:** HTML, CSS, JavaScript  
-**Description:** Interactive PDA-based palindrome validator with **stack simulation, real-time visualization, and clean UI**.  
-**Repo:** [GitHub](https://github.com/MUbaidJavaid/Palindrome-Checker) | **Live:** [Demo](https://mubaidjavaid.github.io/Palindrome-Checker/)
-
-*(Add more projects similarly…)*
-
----
-
-## 🎓 Certifications
-
-- **MERN Stack Front To Back:**<span style="color:#06B6D4; font-weight:600">Full Stack React, Redux & Node.js</span>  – Packt, June 2025 | ![Certificate](https://img.shields.io/badge/Certified-Packt-brightgreen)
-- **Frontend Development with React** – Packt, June 2025 | ![Certificate](https://img.shields.io/badge/Certified-Packt-blue)
-- **Backend Development &** <span style="color:#06B6D4; font-weight:600">API Creation</span> – Packt, June 2025 | ![Certificate](https://img.shields.io/badge/Certified-Packt-red)
-- *(Add more certifications as needed…)*
-
----
-
-## GitHub <span style="color:#06B6D4; font-weight:600">Stats</span>
-
-<!-- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MUbaidJavaid&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
-</p> -->
-
+<!-- ========================================================= -->
+<!--                M UBAID JAVAID - GITHUB README             -->
+<!-- ========================================================= -->
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MUbaidJavaid&show_icons=true&theme=github_dark&hide_title=false&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://streak-stats.demolab.com/?user=MUbaidJavaid&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" height="165" />
-  <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=MUbaidJavaid&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" height="165" /> -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUbaidJavaid&layout=compact&hide_title=true&langs_count=7&theme=github_dark" alt="Top Languages" height="165" />
+
+# 👋 Hi, I'm **M Ubaid Javaid**  
+### 🚀 MERN Stack & Full-Stack Web Developer  
+### 🎯 Building scalable, modern, and user-centric web solutions
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=06B6D4&center=true&vCenter=true&width=700&lines=Full-Stack+Web+Developer;MERN+Stack+Expert;Creating+High-Performance+Web+Apps;Clean+Code+Advocate;Always+Learning+New+Tech" alt="Typing SVG" />
+
 </div>
----
-
-
-
-## 🌐 Connect <span style="color:#06B6D4; font-weight:600">With Me</span>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/mubaidjavaid0" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"/>
-  </a>
-  <a href="https://www.instagram.com/mubaidjavaid/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge"/>
-  </a>
-  <a href="https://github.com/MUbaidJavaid" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge"/>
-  </a>
-  <a href="mailto:ubaidjaved500@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=for-the-badge"/>
-  </a>
-  <a href="https://www.tiktok.com/@mubaidjavaid0" target="_blank">
-    <img src="https://img.shields.io/badge/-TikTok-000000?logo=tiktok&logoColor=white&style=for-the-badge"/>
-  </a>
-  <a href="https://www.facebook.com/mubaidjavaid0" target="_blank">
-    <img src="https://img.shields.io/badge/-Facebook-1877F2?logo=facebook&logoColor=white&style=for-the-badge"/>
-  </a>
-</p>
 
 ---
 
-## 💡 Fun <span style="color:#06B6D4; font-weight:600">Quote</span>
-> “Code is like humor. When you have to explain it, it’s bad.” – Cory House
+## 💡 **About Me**
+I'm a passionate **MERN Stack & Full-Stack Web Developer** with a strong focus on building dynamic, high-performance, and scalable web applications. I love turning complex problems into clean, efficient, and user-friendly digital experiences.  
+I’m currently pursuing my **BSc in Computer Science** at *University of Education Lahore, Multan Campus (2022–2026)*, and working professionally as a **MERN Stack Developer at Fiesta Content Solutions**.
 
 ---
 
+## 🧠 **Tech Stack Overview**
 
+| Category | Technologies |
+|---------|--------------|
+| **Frontend** | React.js, Next.js, Redux, Redux Toolkit, Tailwind CSS, JavaScript (ES6+), TypeScript, HTML5, CSS3 |
+| **Backend** | Node.js, Express.js, REST APIs, JWT Auth, Socket.io |
+| **Databases** | MongoDB, Mongoose, Firebase, SQL |
+| **Tools & DevOps** | Git, GitHub, Postman, VS Code, Vercel, Render, Figma |
 
+---
+
+## 🛠️ **Detailed Skills & Tools**
+
+### 🎨 **Frontend Development**
+![React](https://img.shields.io/badge/React-06B6D4?style=for-the-badge&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### ⚙️ **Backend Development**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000?style=for-the-badge&logo=express)
+![REST API](https://img.shields.io/badge/REST%20API-06B6D4?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JWT-000?style=for-the-badge&logo=jsonwebtokens)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio)
+
+### 🗄️ **Databases**
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
+![SQL](https://img.shields.io/badge/SQL-333?style=for-the-badge)
+
+### 🧰 **Tools & Platforms**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode)
+![Figma](https://img.shields.io/badge/Figma-06B6D4?style=for-the-badge&logo=figma&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel)
+
+---
+
+## 💼 **Professional Experience**
+
+### **🚀 MERN Stack Developer — Fiesta Content Solutions (2024–Present)**
+- Developed and maintained **full-stack web applications** using React, Node.js, and MongoDB.  
+- Integrated and optimized **RESTful APIs**, improving response times and reliability.  
+- Implemented modular, scalable, and reusable UI components using **React.js + Tailwind**.  
+- Worked closely with cross-functional teams to deliver client-focused solutions.  
+- Improved authentication workflows using **JWT, bcrypt, role-based access control**.  
+- Deployed production applications on **Vercel, Netlify, and Render**.  
+
+---
+
+## 🌟 **Projects Showcase**
+
+### 🎯 **1. TaskFlow — Task Management Web App**
+**Tech:** React, Node.js, Express, MongoDB, JWT, Tailwind  
+**Live Demo:** https://taskflow-demo.vercel.app  
+**GitHub:** https://github.com/MUbaidJavaid/taskflow  
+**Description:** A full-stack productivity app enabling users to manage tasks efficiently with real-time updates.  
+**Key Features:**
+- User authentication with JWT  
+- Real-time task updates via optimized state management  
+- Drag-and-drop UI  
+- Fully responsive dashboard  
+
+---
+
+### 🚚 **2. ShopEase — E-Commerce Platform**
+**Tech:** MERN, Stripe API, Redux Toolkit, Tailwind  
+**Live Demo:** https://shopease-demo.vercel.app  
+**GitHub:** https://github.com/MUbaidJavaid/shopease  
+**Description:** A complete e-commerce platform with secure payments and modern UI design.  
+**Key Features:**
+- Product filtering, cart system, and checkout  
+- Stripe payment integration  
+- Admin panel for product management  
+- Mobile-first responsive UI  
+
+---
+
+### 💬 **3. ConnectHub — Real-Time Chat App**
+**Tech:** React, Node.js, Socket.io, MongoDB  
+**Live Demo:** https://connecthub-chat.vercel.app  
+**GitHub:** https://github.com/MUbaidJavaid/connecthub  
+**Description:** A high-performance chat application for real-time messaging.  
+**Key Features:**
+- One-to-one & group chat  
+- Real-time typing indicators  
+- Online/offline presence tracking  
+- Scalable WebSocket architecture  
+
+---
+
+### 📚 **4. EduVerse — Online Learning Platform**
+**Tech:** Next.js, MongoDB, Tailwind, Auth.js  
+**Live Demo:** https://eduverse-learning.vercel.app  
+**GitHub:** https://github.com/MUbaidJavaid/eduverse  
+**Description:** An interactive LMS-style platform for learners and instructors.  
+**Key Features:**
+- Course creation & enrollment  
+- Student dashboards  
+- Built-in authentication  
+- SEO-optimized Next.js pages  
+
+---
+
+### 📝 **5. Portfolio v2 — Personal Developer Portfolio**
+**Tech:** React, Tailwind, Framer Motion  
+**Live Demo:** https://ubaid-portfolio.vercel.app  
+**GitHub:** https://github.com/MUbaidJavaid/portfolio-v2  
+**Description:** A modern animated portfolio showcasing my professional journey.  
+**Key Features:**
+- Smooth page transitions  
+- Interactive project gallery  
+- Fully responsive for all screen sizes  
+
+---
+
+## 🎓 **Education & Certifications**
+
+### **🎓 Bachelor of Science in Computer Science (BSCS)**  
+**University of Education Lahore, Multan Campus (2022–2026)**  
+![Degree](https://img.shields.io/badge/BSCS-06B6D4?style=for-the-badge)
+
+### Certificates  
+- JavaScript Mastery  
+- MERN Stack Bootcamp  
+- Responsive Web Design  
+- Git & GitHub Essentials  
+
+---
+
+## 📊 **GitHub Analytics**
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=MUbaidJavaid&show_icons=true&theme=github_dark" height="160" />  
+<br/><br/>
+<img src="https://streak-stats.demolab.com/?user=MUbaidJavaid&theme=github-dark-blue" height="170" />  
+<br/><br/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUbaidJavaid&layout=compact&theme=github_dark" height="160"/>
+
+</div>
+
+---
+
+## 🌐 **Connect With Me**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ubaidjavaid)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ubaid_javaid)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MUbaidJavaid)
+[![Email](https://img.shields.io/badge/Email-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ubaidjavaid.dev@gmail.com)
+
+---
+
+## ✨ **Fun Dev Quote**
+> *"First, solve the problem. Then, write the code." — John Johnson*
+
+Or… just one more for fun:
+
+**💬 Dev Joke:**  
+*Why do programmers prefer dark mode?*  
+**→ Because the light attracts bugs. 🐛**
+
+---
+
+<div align="center">
+
+### 🚀 *Thanks for visiting! Feel free to ⭐ my repositories if you find them helpful.*
+
+</div>
