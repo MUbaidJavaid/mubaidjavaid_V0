@@ -6,6 +6,7 @@
 
 # 👋 Hi, I'm **M Ubaid Javaid**  
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=06B6D4&center=true&vCenter=true&width=700&lines=Full-Stack+Web+Developer;MERN+Stack+Expert;Creating+High-Performance+Web+Apps;Clean+Code+Advocate;Always+Learning+New+Tech" alt="Typing SVG" />
+
 ### 🚀 MERN Stack & Full-Stack Web Developer  
 ### 🎯 Building scalable, modern, and user-centric web solutions
 
