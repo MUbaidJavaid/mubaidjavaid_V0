@@ -56,9 +56,9 @@ export default function AboutSection() {
         className="mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-foreground">
-          <span className="text-white dark:text-indigo-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">My Journey</span>
+          <span className="text-white dark:text-slate-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">My Journey</span>
         </h2>
-        <p className="text-lg text-white/70 dark:text-indigo-300 max-w-3xl">
+        <p className="text-lg text-white/70 dark:text-slate-300 max-w-3xl">
           Building expertise through diverse experiences, mentorship, and continuous learning.
         </p>
       </motion.div>
@@ -113,7 +113,7 @@ export default function AboutSection() {
 
                 {/* Content card */}
                 <motion.div
-                  className="group hover:border-indigo-600 p-6 rounded-lg border border-slate-200 bg-white/5 backdrop-blur-sm transition-colors soft-glow dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 "
+                  className="group hover:border-indigo-600 p-6 rounded-lg border border-slate-200 bg-white/5 backdrop-blur-sm transition-colors soft-glow dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 "
                   whileHover={{ x: 6 }}
                 >
                   <span className="text-sm group-hover:text-indigo-600  text-white font-bold dark:group-hover:text-cyan-200 font-mono">{exp.year}</span>

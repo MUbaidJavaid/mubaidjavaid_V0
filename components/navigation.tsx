@@ -125,8 +125,8 @@
 //                   document.getElementById(item.label)?.scrollIntoView({ behavior: "smooth" })
 //                 }}
 //                 className={`text-sm font-medium transition-all relative group ${
-//                   activeSection === item.label 
-//                     ? "text-primary font-semibold" 
+//                   activeSection === item.label
+//                     ? "text-primary font-semibold"
 //                     : "text-foreground/70 hover:text-foreground"
 //                 }`}
 //                 whileHover={{ scale: 1.1 }}
@@ -282,8 +282,8 @@
 //                     {theme === "dark" ? <Sun size={18} className="text-yellow-400" /> : <Moon size={18} className="text-slate-600" />}
 //                   </motion.button>
 //                 )}
-//                 <motion.button 
-//                   onClick={() => setIsMobileOpen(false)} 
+//                 <motion.button
+//                   onClick={() => setIsMobileOpen(false)}
 //                   className="p-2.5 rounded-lg hover:bg-accent/10 active:bg-accent/20 transition-all duration-200"
 //                   whileHover={{ scale: 1.1, rotate: 90 }}
 //                   whileTap={{ scale: 0.95 }}
@@ -312,8 +312,8 @@
 //                         document.getElementById(item.label)?.scrollIntoView({ behavior: "smooth" })
 //                       }}
 //                       className={`w-full text-left font-semibold py-3 px-4 rounded-lg transition-all duration-200 group ${
-//                         activeSection === item.label 
-//                           ? 'bg-primary/15 border border-primary/30 text-primary shadow-md' 
+//                         activeSection === item.label
+//                           ? 'bg-primary/15 border border-primary/30 text-primary shadow-md'
 //                           : 'text-foreground hover:text-primary hover:bg-primary/8 border border-transparent'
 //                       }`}
 //                     >
@@ -350,11 +350,11 @@
 //                 Get In Touch
 //               </motion.button>
 
-//               <motion.button 
+//               <motion.button
 //                 initial={{ opacity: 0, y: 20 }}
 //                 animate={{ opacity: 1, y: 0 }}
 //                 transition={{ duration: 0.3, delay: 0.25 }}
-//                 onClick={() => setIsMobileOpen(false)} 
+//                 onClick={() => setIsMobileOpen(false)}
 //                 className="w-full px-4 py-3 rounded-lg border border-foreground/20 text-foreground hover:bg-foreground/10 hover:border-foreground/30 transition-all duration-200 font-semibold"
 //               >
 //                 Close Menu
@@ -370,11 +370,11 @@
 
 "use client"
 
-import type React from "react"
-import { useState, useEffect } from "react"
-import { motion, AnimatePresence } from "framer-motion"
-import { X, Command, Sun, Moon, Menu } from "lucide-react"
+import { AnimatePresence, motion } from "framer-motion"
+import { Command, Menu, Moon, Sun, X } from "lucide-react"
 import { useTheme } from "next-themes"
+import type React from "react"
+import { useEffect, useState } from "react"
 
 interface NavigationProps {
   activeSection: string
@@ -403,18 +403,18 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
 
   useEffect(() => {
     setMounted(true)
-    
+
     const handleScroll = () => {
       setScrolled(window.scrollY > 20)
     }
-    
+
     const onResize = () => {
       if (window.innerWidth >= 768) setIsMobileOpen(false)
     }
-    
+
     window.addEventListener("scroll", handleScroll)
     window.addEventListener("resize", onResize)
-    
+
     return () => {
       window.removeEventListener("scroll", handleScroll)
       window.removeEventListener("resize", onResize)
@@ -481,9 +481,9 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
     <>
       <motion.nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled 
-            ? " bg-white/5 backdrop-blur-lg border-b border-white  shadow-lg dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300" 
-            : "bg-white/5 backdrop-blur-lg border-b dark:backdrop-blur-2xl border-white/70 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300"
+          scrolled
+            ? " bg-white/5 backdrop-blur-lg border-b-2 border-white  shadow-lg dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300"
+            : "bg-white/5 backdrop-blur-lg border-b-2  dark:backdrop-blur-2xl border-white/70 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300"
         }`}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
@@ -491,7 +491,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
           <motion.div
-            className="text-xl sm:text-2xl font-bold text-white dark:text-indigo-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent font-mono"
+            className="text-xl sm:text-2xl font-bold text-white dark:text-slate-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent font-mono"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -508,14 +508,14 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                   document.getElementById(item.label)?.scrollIntoView({ behavior: "smooth" })
                 }}
                 className={`relative px-3 lg:px-4 py-2 text-sm font-medium rounded-lg transition-all group ${
-                  activeSection === item.label 
-                    ? "text-indigo-600 dark:text-indigo-400  dark:bg-indigo-900/40" 
+                  activeSection === item.label
+                    ? "text-indigo-600 dark:text-indigo-400  dark:bg-indigo-900/40"
                     : "text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-white/5 hover:backdrop-blur-sm hover:border-2 hover:border-indigo-300 dark:hover:border-cyan-300 dark:hover:bg-indigo-950/30"
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span className="capitalize text-white dark:text-indigo-300 dark:group-hover:text-cyan-300">{item.label}</span>
+                <span className="capitalize text-white dark:text-slate-300 dark:group-hover:text-cyan-300">{item.label}</span>
                 {activeSection === item.label && (
                   <motion.div
                     className="absolute bottom-0 left-2 right-2 h-0.5 dark:bg-indigo-300 dark:group-hover:bg-cyan-300 rounded-full"
@@ -523,12 +523,12 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                     transition={{ type: "spring", stiffness: 380, damping: 15 }}
                   />
                 )}
-                
+
                 {/* Tooltip */}
-                <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-                  <div className="bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 text-xs px-3 py-1.5 rounded-lg whitespace-nowrap shadow-xl">
-                    {item.description}
-                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-2 h-2 bg-slate-900 dark:bg-slate-100 rotate-45" />
+                <div className="absolute bottom-full w-20  mb-1 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                  <div className="bg-white dark:bg-cyan-300  text-white dark:text-slate-900 text-xs px-3 py-2 rounded-lg whitespace-nowrap shadow-xl">
+                    {/* {item.description} */}
+                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-2 h-2 bg-white dark:bg-cyan-300 rotate-45" />
                   </div>
                 </div>
               </motion.button>
@@ -539,7 +539,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
           <div className="flex items-center gap-2">
             <motion.button
               onClick={() => setIsTerminalOpen(!isTerminalOpen)}
-              className="group px-3 py-2 rounded-lg bg-indigo-100 text-indigo-700 border border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
+              className="group px-2 py-2 rounded-lg bg-indigo-100 text-indigo-700 border-2 border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               aria-label="Open portfolio terminal"
@@ -551,7 +551,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
             {mounted && (
               <motion.button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="group px-3 py-2 rounded-lg bg-indigo-100 text-indigo-700 border border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
+                className="group px-3 py-2 rounded-lg bg-indigo-100 text-indigo-700 border-2 border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 aria-label="Toggle theme"
@@ -584,12 +584,12 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
 
             <motion.button
               onClick={() => setIsMobileOpen(true)}
-              className="md:hidden p-2 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-200 shadow-sm"
+              className="md:hidden group px-3 py-2 rounded-lg bg-indigo-100 text-indigo-700 border-2 border-indigo-300 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300  dark:hover:bg-indigo-800/40 dark:hover:border-cyan-300 transition-all hover:bg-indigo-200 duration-200 flex items-center gap-2 shadow-sm hover:shadow-md"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               aria-label="Open menu"
             >
-              <Menu size={20} className="text-slate-700 dark:text-slate-300" />
+              <Menu size={20} className="text-slate-700 dark:text-slate-300 " />
             </motion.button>
           </div>
         </div>
@@ -685,8 +685,8 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                     {theme === "dark" ? <Sun size={18} className="text-amber-500" /> : <Moon size={18} className="text-slate-700" />}
                   </motion.button>
                 )}
-                <motion.button 
-                  onClick={() => setIsMobileOpen(false)} 
+                <motion.button
+                  onClick={() => setIsMobileOpen(false)}
                   className="p-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
                   whileHover={{ scale: 1.1, rotate: 90 }}
                   whileTap={{ scale: 0.95 }}
@@ -712,8 +712,8 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                         document.getElementById(item.label)?.scrollIntoView({ behavior: "smooth" })
                       }}
                       className={`w-full text-left font-semibold py-3 px-4 rounded-lg transition-all ${
-                        activeSection === item.label 
-                          ? 'bg-indigo-100 dark:bg-indigo-950/50 border border-indigo-300 dark:border-indigo-700 text-indigo-700 dark:text-indigo-300 shadow-md' 
+                        activeSection === item.label
+                          ? 'bg-indigo-100 dark:bg-indigo-950/50 border border-indigo-300 dark:border-indigo-700 text-indigo-700 dark:text-slate-300 shadow-md'
                           : 'text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800 border border-transparent'
                       }`}
                     >

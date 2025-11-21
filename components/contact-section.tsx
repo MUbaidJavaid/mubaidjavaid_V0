@@ -46,7 +46,7 @@ export default function ContactSection() {
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-foreground">
-          <span className="text-white dark:text-indigo-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">Let's Connect</span>
+          <span className="text-white dark:text-slate-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">Let's Connect</span>
         </h2>
         <p className="text-lg text-white/70">Ready to collaborate on your next product or idea — let's get in touch.</p>
       </motion.div>
@@ -55,7 +55,7 @@ export default function ContactSection() {
         <motion.div  className="group relative">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-600/20 to-purple-600/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl" />
 
-            <div className="group relative bg-white/5 backdrop-blur-sm dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-indigo-300  dark:hover:bg-indigo-800/40 transition-all border border-slate-200  rounded-xl p-6 hover:border-indigo-500 dark:hover:border-cyan-300  duration-300 h-full flex flex-col shadow-lg hover:shadow-xl">
+            <div className="group relative bg-white/5 backdrop-blur-sm dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300  dark:hover:bg-indigo-800/40 transition-all border border-slate-200  rounded-xl p-6 hover:border-indigo-500 dark:hover:border-cyan-300  duration-300 h-full flex flex-col shadow-lg hover:shadow-xl">
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
           <motion.form
             onSubmit={handleSubmit}
@@ -66,7 +66,7 @@ export default function ContactSection() {
             className="space-y-6"
           >
             <motion.div variants={item}>
-              <label className="block text-sm font-semibold mb-2 text-white dark:text-indigo-300 dark:group-hover:text-cyan-300">Name</label>
+              <label className="block text-sm font-semibold mb-2 text-white dark:text-slate-300 dark:group-hover:text-cyan-300">Name</label>
               <motion.input
                 type="text"
                 required
@@ -79,7 +79,7 @@ export default function ContactSection() {
             </motion.div>
 
             <motion.div variants={item}>
-              <label className="block text-sm font-semibold mb-2 text-white dark:text-indigo-300 dark:group-hover:text-cyan-300">Email</label>
+              <label className="block text-sm font-semibold mb-2 text-white dark:text-slate-300 dark:group-hover:text-cyan-300">Email</label>
               <motion.input
                 type="email"
                 required
@@ -92,7 +92,7 @@ export default function ContactSection() {
             </motion.div>
 
             <motion.div variants={item}>
-              <label className="block text-sm font-semibold mb-2 text-white dark:text-indigo-300 dark:group-hover:text-cyan-300">Message</label>
+              <label className="block text-sm font-semibold mb-2 text-white dark:text-slate-300 dark:group-hover:text-cyan-300">Message</label>
               <motion.textarea
                 required
                 value={formData.message}
@@ -134,7 +134,7 @@ export default function ContactSection() {
           transition={{ duration: 0.8 }}
           className="space-y-6"
         >
-          <h3 className="group text-2xl font-bold mb-8 text-white dark:text-indigo-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">Other Ways to Connect</h3>
+          <h3 className="group text-2xl font-bold mb-8 text-white dark:text-slate-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">Other Ways to Connect</h3>
 
           {[
             {
@@ -180,7 +180,7 @@ export default function ContactSection() {
                   group-hover:to-purple-600 
                   group-hover:bg-clip-text 
                   group-hover:text-transparent 
-                    mb-1 text-white dark:text-indigo-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent dark:group-hover:text-cyan-300">{contact.label}</h4>
+                    mb-1 text-white dark:text-slate-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent dark:group-hover:text-cyan-300">{contact.label}</h4>
                     <p className="text-sm text-white/70 group-hover:text-accent dark:group-hover:text-cyan-400 transition-colors">
                       {contact.value}
                     </p>

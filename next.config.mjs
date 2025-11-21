@@ -1,5 +1,5 @@
-import { fileURLToPath } from "url";
 import { dirname } from "path";
+import { fileURLToPath } from "url";
 
 /** Fix __dirname for ESM */
 const __filename = fileURLToPath(import.meta.url);
@@ -11,7 +11,7 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  swcMinify: true,
+  // swcMinify: true,
 
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -26,6 +26,7 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["framer-motion", "lucide-react"],
   },
+
 
   // ESLint and TypeScript configurations
   eslint: {
