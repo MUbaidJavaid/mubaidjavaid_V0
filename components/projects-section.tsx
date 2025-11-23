@@ -1,12 +1,10 @@
+'use client'
 
-"use client";
-
-
-import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Code2, GitBranch, Zap } from "lucide-react";
-import CertificationsSection1 from "./Certifications";
-import CertificationsSection from "./CertificationsSection";
-import ProjectDisplay from "./ProjectDisplay";
+import { motion } from 'framer-motion'
+import { ArrowRight, CheckCircle2, Code2, Zap } from 'lucide-react'
+import CertificationsSection from './CertificationsSection'
+import ProjectDisplay from './ProjectDisplay'
+import ScrollTrigger from './scroll-trigger'
 
 // const projects = [
 //   {
@@ -47,73 +45,76 @@ import ProjectDisplay from "./ProjectDisplay";
 //   },
 // ]
 
-const workflowSteps = [
-  {
-    title: "Requirement Analysis & Planning",
-    description: "Understand client goals & project scope. Define features, user stories & technical requirements.",
-  },
-  {
-    title: "UI/UX Design & Prototyping",
-    description: "Wireframes & interactive prototypes. Design responsive and user-friendly interfaces.",
-  },
-  {
-    title: "Development (Frontend & Backend)",
-    description: "Implement frontend using React. Build backend APIs with Node.js & Express. Integrate database (MongoDB) & authentication.",
-  },
-  {
-    title: "Testing & Quality Assurance",
-    description: "Unit, integration & end-to-end testing. Bug fixing & performance optimization.",
-  },
-  {
-    title: "Deployment & CI/CD",
-    description: "Deploy on cloud platforms (Vercel, Netlify, AWS). Set up continuous integration & delivery pipelines.",
-  },
-  {
-    title: "Monitoring & Maintenance",
-    description: "Track app performance & errors. Update features & security patches regularly.",
-  },
-]
+// const workflowSteps = [
+//   {
+//     title: "Requirement Analysis & Planning",
+//     description: "Understand client goals & project scope. Define features, user stories & technical requirements.",
+//   },
+//   {
+//     title: "UI/UX Design & Prototyping",
+//     description: "Wireframes & interactive prototypes. Design responsive and user-friendly interfaces.",
+//   },
+//   {
+//     title: "Development (Frontend & Backend)",
+//     description: "Implement frontend using React. Build backend APIs with Node.js & Express. Integrate database (MongoDB) & authentication.",
+//   },
+//   {
+//     title: "Testing & Quality Assurance",
+//     description: "Unit, integration & end-to-end testing. Bug fixing & performance optimization.",
+//   },
+//   {
+//     title: "Deployment & CI/CD",
+//     description: "Deploy on cloud platforms (Vercel, Netlify, AWS). Set up continuous integration & delivery pipelines.",
+//   },
+//   {
+//     title: "Monitoring & Maintenance",
+//     description: "Track app performance & errors. Update features & security patches regularly.",
+//   },
+// ]
 
-export default function ProjectsSection() {
-  const container = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
-    },
-  }
+export default function ProjectsSection () {
+  // const container = {
+  //   hidden: { opacity: 0 },
+  //   visible: {
+  //     opacity: 1,
+  //     transition: {
+  //       staggerChildren: 0.2,
+  //     },
+  //   },
+  // }
 
-  const item = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.8 },
-    },
-  }
+  // const item = {
+  //   hidden: { opacity: 0, y: 30 },
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: { duration: 0.8 },
+  //   },
+  // }
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-20">
+    <div className='max-w-7xl mx-auto px-4 md:px-16 py-8 md:py-20'>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16"
+        className='text-center mb-16 relative z-10'
       >
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-slate-900 dark:text-slate-100">
-          <span className="text-white dark:text-slate-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent">
-            Project Pipeline
-          </span>
-        </h2>
-        <p className="text-lg text-white/60 max-w-3xl">
-          Selected projects that demonstrate engineering craftsmanship, performance optimization, and production-ready delivery.
+        <ScrollTrigger animationType='fadeUp'>
+          <h2 className='text-4xl md:text-5xl font-extrabold mb-4 text-slate-900 dark:text-slate-100'>
+            <span className='text-white dark:text-slate-300 dark:hover:bg-gradient-to-r dark:hover:from-blue-500 dark:hover:to-cyan-500 dark:hover:bg-clip-text dark:hover:text-transparent'>
+              Project Pipeline
+            </span>
+          </h2>
+        </ScrollTrigger>
+        <p className='text-lg text-white/60 w-auto'>
+          Selected projects that demonstrate engineering craftsmanship,
+          performance optimization, and production-ready delivery.
         </p>
       </motion.div>
 
       {/* Workflow Section */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -137,7 +138,7 @@ export default function ProjectsSection() {
           </div>
         </motion.div>
 
-        {/* Mobile Layout */}
+
         <div className="md:hidden space-y-6">
           {workflowSteps.map((step, index) => (
             <motion.div
@@ -198,7 +199,7 @@ dark:group-hover:bg-gradient-to-r dark:group-hover:from-blue-500 dark:group-hove
           ))}
         </div>
 
-        {/* Desktop Layout */}
+
         <div className="hidden md:block relative">
           <div className="grid grid-cols-3 gap-8">
             {workflowSteps.map((step, index) => (
@@ -295,11 +296,7 @@ dark:group-hover:bg-gradient-to-r dark:group-hover:from-blue-500 dark:group-hove
             Start Your Project
           </motion.button>
         </motion.div>
-      </motion.div>
-
-      <CertificationsSection />
-      <CertificationsSection1 />
-
+      </motion.div> */}
 
       {/* <motion.div
         variants={container}
@@ -386,18 +383,16 @@ dark:group-hover:bg-gradient-to-r dark:group-hover:from-blue-500 dark:group-hove
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6"
+        className='mt-20 grid grid-cols-2 md:grid-cols-4 gap-6'
       >
-
         {[
-          { label: "Projects Deployed", value: "3", icon: Code2 },
-          { label: "Active Users", value: "10K+", icon: Zap },
-          { label: "Development Hours", value: "2000+", icon: ArrowRight },
-          { label: "Success Rate", value: "100%", icon: CheckCircle2 },
+          { label: 'Projects Deployed', value: '3', icon: Code2 },
+          { label: 'Active Users', value: '10K+', icon: Zap },
+          { label: 'Development Hours', value: '1457+', icon: ArrowRight },
+          { label: 'Success Rate', value: '100%', icon: CheckCircle2 }
         ].map((stat, index) => {
           const Icon = stat.icon
           return (
-
             <motion.div
               key={stat.label}
               className={`group p-6 rounded-lg border border-slate-200 hover:border-cyan-300
@@ -408,16 +403,17 @@ dark:group-hover:bg-gradient-to-r dark:group-hover:from-blue-500 dark:group-hove
               transition={{ delay: index * 0.1 }}
             >
               <motion.div
-                className="flex justify-center mb-3 group-hover:text-indigo-600 dark:hover:border-cyan-300"
+                className='flex justify-center mb-3 group-hover:text-indigo-600 dark:hover:border-cyan-300'
                 whileHover={{ scale: 1.1, rotate: 10 }}
               >
                 <Icon
-                  className="text-white dark:border-indigo-700   dark:text-slate-300  dark:group-hover:border-cyan-300  dark:group-hover:text-cyan-300  transition-all group-hover:text-indigo-500 "
+                  className='text-white dark:border-indigo-700   dark:text-slate-300  dark:group-hover:border-cyan-300  dark:group-hover:text-cyan-300  transition-all group-hover:text-indigo-500 '
                   size={24}
                 />
               </motion.div>
 
-              <div className="
+              <div
+                className='
                   text-2xl font-bold text-white
                   dark:text-slate-300
                   dark:group-hover:text-cyan-300
@@ -427,21 +423,19 @@ dark:group-hover:bg-gradient-to-r dark:group-hover:from-blue-500 dark:group-hove
                   group-hover:bg-clip-text
                   group-hover:text-transparent
                   mb-2
-                ">
+                '
+              >
                 {stat.value}
               </div>
 
-              <div className="text-sm text-white/70 dark:text-slate-300">
+              <div className='text-sm text-white/70 dark:text-slate-300'>
                 {stat.label}
               </div>
             </motion.div>
-
-
           )
         })}
-
       </motion.div>
-
+      <CertificationsSection />
     </div>
   )
 }

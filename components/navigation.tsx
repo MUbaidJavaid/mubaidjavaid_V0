@@ -483,7 +483,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
             ? " bg-white/5 backdrop-blur-lg border-b-2 border-white  shadow-lg dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300"
-            : "bg-white/5 backdrop-blur-lg border-b-2  dark:backdrop-blur-2xl border-white/70 dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300"
+            : "bg-white/5 backdrop-blur-lg border-b-2 border-white/70 dark:backdrop-blur-2xl  dark:border-indigo-700 dark:bg-indigo-900/30  dark:text-slate-300"
         }`}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
