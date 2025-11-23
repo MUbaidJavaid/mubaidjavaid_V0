@@ -4,17 +4,17 @@
  * Implements whileInView for scroll-based choreography
  */
 
-"use client"
+'use client'
 
-import { motion } from "framer-motion"
-import type React from "react"
+import { motion } from 'framer-motion'
+import type React from 'react'
 
 interface ScrollTriggerProps {
   children: React.ReactNode
   className?: string
   delay?: number
   duration?: number
-  animationType?: "fadeUp" | "fadeIn" | "slideLeft" | "slideRight" | "scaleIn"
+  animationType?: 'fadeUp' | 'fadeIn' | 'slideLeft' | 'slideRight' | 'scaleIn'
 }
 
 const animationVariants = {
@@ -40,26 +40,26 @@ const animationVariants = {
   }
 }
 
-export function ScrollTrigger({
+export function ScrollTrigger ({
   children,
-  className = "",
+  className = '',
   delay = 0,
   duration = 0.6,
-  animationType = "fadeUp"
+  animationType = 'fadeUp'
 }: ScrollTriggerProps) {
   const variants = animationVariants[animationType]
 
   return (
     <motion.div
       className={className}
-      initial="hidden"
-      whileInView="visible"
+      initial='hidden'
+      whileInView='visible'
       viewport={{ once: true, amount: 0.3 }}
       variants={variants}
       transition={{
         duration,
         delay,
-        ease: "easeOut"
+        ease: 'easeOut'
       }}
     >
       {children}
@@ -95,22 +95,21 @@ const itemVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      ease: "easeOut"
+      ease: 'easeOut'
     }
   }
 }
 
-export function StaggeredList({
+export function StaggeredList ({
   children,
-  className = "",
+  className = '',
   staggerDelay = 0.1,
   duration = 0.5
 }: StaggeredListProps) {
   return (
     <motion.ul
       className={className}
-      initial="hidden"
-      whileInView="visible"
+      whileInView='visible'
       viewport={{ once: true, amount: 0.3 }}
       variants={{
         hidden: { opacity: 0 },
