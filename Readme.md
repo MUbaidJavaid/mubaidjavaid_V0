@@ -202,6 +202,10 @@ A modern blogging platform for tech reviews and programming tutorials.
 ## 🌐 **Let's Connect & Collaborate**
 
 <p align="center">
+  <a href="https://x.com/mubaidjavaid" target="_blank">
+    <img src="img.shields.io" alt=" X (formerly Twitter)"/>
+</a>
+
   <a href="https://www.linkedin.com/in/mubaidjavaid0" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
